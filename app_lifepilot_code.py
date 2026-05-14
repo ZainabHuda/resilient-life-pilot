@@ -323,13 +323,13 @@ st.markdown("""
 
 **Fragile AI (Global Re-planning):** 
 - Tries to find the *perfect* schedule every time chaos strikes.
-- Achieves very high **Optimality** (close to 100%) by re-optimizing all subsequent tasks.
+- Achieves very high **Optimality** by re-optimizing all subsequent tasks.
 - But suffers from **extreme Latency** due to $O(n^2)$ re-calculation cost.
-- **System Efficiency is LOW** because the user is waiting 28x longer for a 1-2% improvement.
+- **System Efficiency is LOW**
 
 **Resilient AI (Inhibitory Control):**
 - Accepts a slightly "sub-optimal" path to maintain stability.
-- Achieves slightly lower **Optimality** (e.g., 92-98%) because it doesn't re-optimize the entire day.
+- Achieves slightly lower **Optimality** because it doesn't re-optimize the entire day.
 - But maintains **low, predictable Latency** through $O(n)$ local adjustments.
 - **System Efficiency is HIGH** because the user gets instant decisions with minimal sacrifice.
 

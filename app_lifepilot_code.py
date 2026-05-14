@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-get_ipython().system('pip install streamlit')
-
 import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.set_page_config(layout="wide", page_title="The Resilient Life-Pilot")
+st.set_page_config(
+    layout="wide",
+    page_title="The Resilient Life-Pilot"
+)
+
+
 
 
 # In[2]:

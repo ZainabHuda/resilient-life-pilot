@@ -362,7 +362,7 @@ if st.button("🔄 Reset Schedule"):
 st.markdown("---")
 st.markdown("""
 ### 📚 Research Status
-**Status:** Research Hypothesis & Proof of Concept. This framework is based on stochastic simulations comparing $O(n^2)$ global re-planning against $O(n)$ local inhibitory control in dynamic environments. Currently being formalized for peer review.
+**Status:** Research Hypothesis & Proof of Concept. This framework is based on stochastic simulations comparing $O(n^2)$ global re-planning against $O(n)$ local inhibitory control in dynamic environments.
 
 **Author:** Zainab Huda | **Research Focus:** Stability-Optimality Paradox in Agentic AI
 """)
